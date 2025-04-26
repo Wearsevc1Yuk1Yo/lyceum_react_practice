@@ -4,7 +4,7 @@ import MainPage from './pages/MainPage'
 import SecondPage from './pages/SecondPage'
 import Products from './pages/Products'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Aside from './Aside';
+import Aside from './components/Aside';
 
 function App() {
   return (
