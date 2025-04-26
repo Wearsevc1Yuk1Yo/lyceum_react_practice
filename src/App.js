@@ -1,4 +1,4 @@
-import logo from './kitten.png';
+import logo from './kittenr.png';
 import './App.css';
 import MainPage from './pages/MainPage'
 import SecondPage from './pages/SecondPage'

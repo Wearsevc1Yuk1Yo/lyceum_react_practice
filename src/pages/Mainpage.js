@@ -1,4 +1,4 @@
-import logo from '../kitten.png';
+import logo from '../kittenr.png';
 
 function MainPage() {
   return (
