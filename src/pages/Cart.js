@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function SecondPage() {
+function Cart() {
     const [count, setCount] = useState(0);
 
     return (
@@ -10,4 +10,4 @@ function SecondPage() {
     );
 }
 
-export default SecondPage
+export default Cart

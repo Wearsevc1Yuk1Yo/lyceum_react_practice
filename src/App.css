@@ -2,11 +2,13 @@
   text-align: center;
   width: 100%;
   height: 100vh;
+  background-color:antiquewhite;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  user-select: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -16,7 +18,6 @@
 }
 
 .App-header {
-  background-color:antiquewhite;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,16 +25,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  text-decoration: none;
 }
-
-/* .Products-header {
-  background-color:antiquewhite;
-}
-
-.SecondPage-header {
-  background-color:antiquewhite;
-} */
 
 .App-link {
   color: #61dafb;
@@ -51,7 +43,6 @@
 header {
   h1{
     text-align: center;
-    text-decoration: none;
   }
 }
 
@@ -67,6 +58,11 @@ header {
 .head_text:hover {
   color:rgba(250, 228, 195, 0.895);
   text-decoration: none;
+}
+
+.Const_header a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .head_text.active {
@@ -104,13 +100,14 @@ aside {
   font-size: 170%;
   text-decoration: none;
 
-  padding: 1% 0; 
+  padding: 3% 0; 
+
   p {
-    margin-left: 5%;
+    margin-left: 8%;
   }
   h1 {
     text-align: left;
-    margin-left: 5%;
+    margin-left: 8%;
   }
 }
 
@@ -118,3 +115,14 @@ aside {
   color:rgba(250, 228, 195, 0.895);
   text-decoration: none;
 }
+
+
+/* .draggable-image {
+  user-select: none;
+  position: relative;
+  transition: transform 0.1s ease;
+}
+
+.App-logo {
+  height: 40vmin;
+} */
