@@ -1,12 +1,12 @@
-
+import { useState } from 'react';
 
 function SecondPage() {
+    const [count, setCount] = useState(0);
+
     return (
-    <div className="SecondPage">
-        <header className="SecondPage-header">
-          это available товары
-        </header>
-    </div>
+      <div className="App">
+        <h1>Корзина({count})</h1>
+      </div>
     );
 }
 

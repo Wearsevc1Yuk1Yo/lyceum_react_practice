@@ -27,13 +27,13 @@
   text-decoration: none;
 }
 
-.Products-header {
+/* .Products-header {
   background-color:antiquewhite;
 }
 
 .SecondPage-header {
   background-color:antiquewhite;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -51,6 +51,7 @@
 header {
   h1{
     text-align: center;
+    text-decoration: none;
   }
 }
 
@@ -70,6 +71,7 @@ header {
 
 .head_text.active {
   font-size: 180%;
+  text-decoration: none;
 }
 
 .body {

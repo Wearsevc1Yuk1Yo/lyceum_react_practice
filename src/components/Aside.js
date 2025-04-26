@@ -1,8 +1,11 @@
 function Aside() {
     return(
       <aside>
-        <div className='aside'>
-            <p>Боковое меню</p>
+        <div>
+          <h2>Каталог</h2>
+          <p>материалы</p>
+          <p>безделушки</p>
+          <p>accessories</p>
         </div>
       </aside>
     );

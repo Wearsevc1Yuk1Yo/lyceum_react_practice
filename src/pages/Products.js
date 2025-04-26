@@ -1,13 +1,9 @@
-
-
 function Products() {
-    return (
-    <div className="Products">
-        <header className="Products-header">
-          это твоя корзина йоу
-        </header>
+  return (
+    <div className="App">
+        <h1> йооооууу товарыыы </h1>
     </div>
-    );
+  );
 }
 
 export default Products

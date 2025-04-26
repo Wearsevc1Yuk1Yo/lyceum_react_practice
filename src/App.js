@@ -8,9 +8,7 @@ import Aside from './components/Aside';
 
 function App() {
   return (
-    <Router>
-      <div>meow meow meowmeowmeowmeow meow meowmeow meow meow meowmeow meowmeow meow meowmeow meow meowmeow meow meow meow meowmeow  meow meow meow meow meow meow</div>
-      
+    <Router>      
       <nav class="Const_header">
         <Link to="/"> <div class="head_text">Главная  </div></Link>
         <Link to="/cart"><div class="head_text">Корзина  </div></Link>
