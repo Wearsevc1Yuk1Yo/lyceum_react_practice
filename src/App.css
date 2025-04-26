@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 100%;
+  height: 100vh;
 }
 
 .App-logo {
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:antiquewhite;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +24,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-decoration: none;
+}
+
+.Products-header {
+  background-color:antiquewhite;
+}
+
+.SecondPage-header {
+  background-color:antiquewhite;
 }
 
 .App-link {
@@ -35,4 +46,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+header {
+  h1{
+    text-align: center;
+  }
+}
+
+.head_text{
+  color:aliceblue;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 160%;
+  transition: color 0.3s ease;
+}
+
+.head_text:hover {
+  color:rgba(250, 228, 195, 0.895);
+  text-decoration: none;
+}
+
+.head_text.active {
+  font-size: 180%;
+}
+
+.body {
+  height: 100%;
+  display: flex;
+}
+
+.Const_header{
+  display: flex;
+  height: 20%;
+  background-color:brown;
+  left: 0;
+  top: 0;
+  padding: 2% 7%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 160%;
+  align-items: center;
+  text-decoration: none;
+}
+
+aside {
+  display: flex;
+  left: 0;
+  top: 0;
+  width: 25%;
+  background-color: rgba(238, 169, 64, 0.895);
+  color:midnightblue;
+  /* padding: 2% 5.5%; */
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 170%;
+  text-decoration: none;
+
+  padding: 1% 0; 
+  p {
+    margin-left: 5%;
+  }
+  h1 {
+    text-align: left;
+    margin-left: 5%;
+  }
+}
+
+.Const_header:hover {
+  color:rgba(250, 228, 195, 0.895);
+  text-decoration: none;
 }

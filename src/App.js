@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import logo from './kitten.png';
 import './App.css';
+import MainPage from './pages/MainPage'
+import SecondPage from './pages/SecondPage'
+import Products from './pages/Products'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Aside from './Aside';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>meow meow meowmeowmeowmeow meow meowmeow meow meow meowmeow meowmeow meow meowmeow meow meowmeow meow meow meow meowmeow  meow meow meow meow meow meow</div>
+      
+      <nav class="Const_header">
+        <Link to="/"> <div class="head_text">Главная  </div></Link>
+        <Link to="/cart"><div class="head_text">Корзина  </div></Link>
+        <Link to="/products"><div class="head_text">Товары</div></Link>
+      </nav>
+
+      {/* <header>
+        <title>мяу мяу мяу мяу</title>
+        <h1>мяяяяяяяяяяяяяяу</h1>
+      </header> */}
+
+      <div className='body'>
+          <Aside/>
+          <Routes>
+            <Route path='/' element={<MainPage></MainPage>}></Route>
+            <Route path='/cart' element={<SecondPage></SecondPage>}></Route>
+            <Route path='/products' element={<Products></Products>}></Route>
+          </Routes> 
+      </div>
+    </Router>
   );
 }
 
