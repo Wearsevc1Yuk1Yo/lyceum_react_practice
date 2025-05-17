@@ -12,11 +12,6 @@ function App() {
     <CartProvider>
       <Router>
         <Header />
-          {/* <nav class="Const_header">
-            <Link to="/"> <div class="head_text">Главная  </div></Link>
-            <Link to="/cart"><div class="head_text">Корзина  </div></Link>
-          </nav> */}
-
           <div className='body'>
               <Aside/>
               <main>
