@@ -6,6 +6,10 @@ import podveskaImg from '../images/podveska.png';
 import braceletImg from '../images/bracelet.png';
 import nightlampImg from '../images/nightlamp.png';
 import tapkidImg from '../images/tapki.png';
+import bonesImg from '../images/bones.png'
+import biserImg from '../images/biser.png'
+import shurupImg from '../images/shurups.png'
+import tapeImg from '../images/tape.png'
 
 export const products = [
   { 
@@ -55,5 +59,37 @@ export const products = [
     category: "trinkets", 
     description: "Тапки раки красные из Японии", 
     img: tapkidImg 
+  },
+  { 
+    id: 7, 
+    name: "Кости", 
+    price: 80, 
+    category: "materials", 
+    description: "Кости натуральные (не человеческие)", 
+    img: bonesImg 
+  },
+  { 
+    id: 8, 
+    name: "Бисер", 
+    price: 20, 
+    category: "materials", 
+    description: "Бисер для браслетов/подвесок/рукоделия", 
+    img: biserImg 
+  },
+  { 
+    id: 9, 
+    name: "Шурупы", 
+    price: 10, 
+    category: "materials", 
+    description: "Шурупы для фурниторы 2x6мм бронза", 
+    img: shurupImg 
+  },
+  { 
+    id: 10, 
+    name: "Декоративный скотч", 
+    price: 30, 
+    category: "materials", 
+    description: "Односторонний декоративный скотч 2смx5м", 
+    img: tapeImg 
   },
 ];
