@@ -1,13 +1,14 @@
-// context/CartContext.js
+
 import { createContext, useState, useContext } from "react";
 
 const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
+    const [cart, setCart] = useState([]);
+        
     // children все дочерние элементы,
     // которые будут обёрнуты в компонент CartProvider
 
-    const [cart, setCart] = useState([]);
     // empty массив - сост корзины
 
     const addToCart = (product) => {
