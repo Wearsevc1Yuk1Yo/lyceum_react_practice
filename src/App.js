@@ -2,7 +2,6 @@ import logo from './kittenr.png';
 import './App.css';
 import MainPage from './pages/MainPage'
 import SecondPage from './pages/Cart'
-import Products from './pages/Products'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Aside from './components/Aside';
 
@@ -12,7 +11,6 @@ function App() {
       <nav class="Const_header">
         <Link to="/"> <div class="head_text">Главная  </div></Link>
         <Link to="/cart"><div class="head_text">Корзина  </div></Link>
-        <Link to="/products"><div class="head_text">Товары</div></Link>
       </nav>
 
       <div className='body'>
@@ -20,7 +18,6 @@ function App() {
           <Routes>
             <Route path='/' element={<MainPage></MainPage>}></Route>
             <Route path='/cart' element={<SecondPage></SecondPage>}></Route>
-            <Route path='/products' element={<Products></Products>}></Route>
           </Routes> 
       </div>
     </Router>
