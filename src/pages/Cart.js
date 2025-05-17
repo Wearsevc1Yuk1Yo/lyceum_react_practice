@@ -5,7 +5,7 @@ function Cart() {
 
     return (
       <div className="App">
-        <h1>Корзина</h1>
+        <h1>:/</h1>
       </div>
     );
 }
