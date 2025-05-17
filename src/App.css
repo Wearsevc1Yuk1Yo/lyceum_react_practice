@@ -78,7 +78,7 @@ header {
 .Const_header{
   display: flex;
   height: 20%;
-  background-color:brown;
+  background-color:rgb(82, 41, 99);;
   left: 0;
   top: 0;
   padding: 2% 7%;
@@ -93,7 +93,7 @@ aside {
   left: 0;
   top: 0;
   width: 25%;
-  background-color: rgba(238, 169, 64, 0.895);
+  background-color: rgb(179, 134, 145);;;
   color:midnightblue;
 
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -136,7 +136,7 @@ aside {
 
 .card-img img {
   width: 100%;
-  height: 150px;
+  height: 250px;
   object-fit: cover;
 }
 
@@ -146,13 +146,13 @@ aside {
 }
 
 .card-price {
-  color: brown;
+  color: rgb(82, 41, 99);;
   font-weight: bold;
   margin: 10px 0;
 }
 
 button {
-  background-color: brown;
+  background-color: rgb(82, 41, 99);
   color: white;
   border: none;
   padding: 8px 15px;
@@ -193,7 +193,7 @@ aside a:hover {
   display: flex;
   gap: 20px;
   padding: 15px;
-  background-color: brown;
+  background-color: rgb(82, 41, 99);;
 }
 
 .navbar a {

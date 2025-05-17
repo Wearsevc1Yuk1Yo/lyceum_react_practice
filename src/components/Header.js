@@ -10,8 +10,8 @@ function Header() {
     return(
       <nav>
         <div className="navbar">
-            <Link to="/">Главная</Link>
-            <Link to="/cart">Корзина ({totalItems}) </Link>
+            <Link to="/">˗ˏˋ ★ ˎˊ˗ Home ˗ˏˋ ★ ˎˊ˗</Link>
+            <Link to="/cart">Cart ({totalItems}) </Link>
         </div>
       </nav>
     );

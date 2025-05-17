@@ -13,7 +13,7 @@ function ProductCard({ product}) {
             <p className="card-desc">{product.description}</p>
             <p className="card-price">${product.price}</p>
             
-            <button onClick={() => addToCart(product)}>Добавить в корзину</button>
+            <button onClick={() => addToCart(product)}>Add to your cart</button>
         </div>
     );
 }
