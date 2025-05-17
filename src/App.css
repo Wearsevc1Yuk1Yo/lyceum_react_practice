@@ -95,7 +95,7 @@ aside {
   width: 25%;
   background-color: rgba(238, 169, 64, 0.895);
   color:midnightblue;
-  /* padding: 2% 5.5%; */
+
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 170%;
   text-decoration: none;
@@ -103,11 +103,11 @@ aside {
   padding: 3% 0; 
 
   p {
-    margin-left: 8%;
+    margin-left: 15%;
   }
   h1 {
     text-align: left;
-    margin-left: 8%;
+    margin-left: 15%;
   }
 }
 
@@ -115,14 +115,3 @@ aside {
   color:rgba(250, 228, 195, 0.895);
   text-decoration: none;
 }
-
-
-/* .draggable-image {
-  user-select: none;
-  position: relative;
-  transition: transform 0.1s ease;
-}
-
-.App-logo {
-  height: 40vmin;
-} */
