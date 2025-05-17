@@ -142,8 +142,13 @@ aside {
   gap: 20px;
   padding: 20px;
   justify-content: flex-start;
+  margin-top: 20px;
 }
 
+
+body {
+  padding-top: 60px;
+}
 
 .card {
   width: 250px;
@@ -186,6 +191,7 @@ button:hover {
 .cart-page {
   padding: 20px;
   width: 100%;
+  color:rgb(201, 107, 160);
 }
 
 .cart-item {
@@ -194,6 +200,8 @@ button:hover {
   margin-bottom: 10px;
   border-radius: 8px;
   width: 250px;
+  background-color:#f7d5d5;
+  color:rgb(38, 8, 54)
 }
 
 .cart-items {
@@ -205,6 +213,7 @@ button:hover {
 .cart-total {
   margin-top: 20px;
   font-size: 1.2em;
+  color:#186180;
 }
 
 aside a {
@@ -223,6 +232,9 @@ aside a:hover {
   background-color: rgb(82, 41, 99);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 1.7rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar a {
@@ -250,6 +262,7 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
+  padding-top: 70px;
 }
 
 .cart-item-actions {

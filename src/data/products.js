@@ -11,7 +11,7 @@ export const products = [
   { 
     id: 1, 
     name: "Пряжа 100% шерсть", 
-    price: 500, 
+    price: 50, 
     category: "materials", 
     description: "Пряжа ALASKA (100% шерсть 50 г 70 м) ", 
     img: pryzhaImg 
@@ -19,7 +19,7 @@ export const products = [
   { 
     id: 2, 
     name: "Кольцо незабудка", 
-    price: 300, 
+    price: 30, 
     category: "accessories", 
     description: "Кольцо серебряное с цветком-незабудкой из стекла", 
     img: ringImg 
@@ -27,7 +27,7 @@ export const products = [
   { 
     id: 3, 
     name: "Подвеска тюленчики", 
-    price: 300, 
+    price: 30, 
     category: "accessories", 
     description: "Подвеска на шею тюленчики, кмоплект из 2х штук", 
     img: podveskaImg 
@@ -35,7 +35,7 @@ export const products = [
   { 
     id: 4, 
     name: "Браслет", 
-    price: 250, 
+    price: 25, 
     category: "accessories", 
     description: "Браслет на руку со звездами (несколько в 1)", 
     img: braceletImg 
@@ -43,7 +43,7 @@ export const products = [
   { 
     id: 5, 
     name: "Ночник", 
-    price: 400, 
+    price: 100, 
     category: "trinkets", 
     description: "Ночная лампа с котиками, теплый мягкий свет", 
     img: nightlampImg 
