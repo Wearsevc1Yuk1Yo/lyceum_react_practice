@@ -1,4 +1,4 @@
-# Usefull stuff
+# Useful stuff
 ### `npm start`
 
 Start all this shi
